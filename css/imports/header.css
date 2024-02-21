@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--branco);
+    padding-right: 1rem;
+}
+
+.header .container {
+    gap: 1rem;
+}
+
+.menu-hamburger {
+    width: 30px;
+    height: 24px;
+    background-image: url("../../img/menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.menu-dropdown, .menu-lateral, .header .titulo, .header .opcoes, .header .texto {
+    display: none;
+}
+
+.menu-dropdown.active {
+    display: block;
+}
+
+.container-rotulo {
+    padding: 1.5rem;
+}
+
+.menu-dropdown {
+    position: absolute;
+    top: 74px;
+    left: 0;
+    width: 60vw;
+    background-color: var(--branco);
+    padding: .5rem 0;
+}
+
+.lista-menu li {
+    padding: .8rem 1.5rem;
+}
+
+.lista-menu li a {
+    padding: .8rem 1.6rem;
+    text-transform: uppercase;
+}
+
+.lista-menu .titulo-lista {
+    color: var(--vermelho);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
