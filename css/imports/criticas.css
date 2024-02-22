@@ -1,5 +1,6 @@
 .criticas {
-    padding-bottom: 2.4rem;
+    background-color: var(--branco);
+    padding: 2.4rem 0;
 }
 
 .criticas h1 {
@@ -24,6 +25,10 @@
     margin: .4rem 0;
 }
 
+.card p {
+    line-height: 1.3rem;
+}
+
 .card > img {
     width: 45%;
     float: left;
@@ -36,6 +41,5 @@
 }
 
 .texto-critica {
-    line-height: 1.3rem;
     margin-top: .8rem;
 }
