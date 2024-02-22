@@ -1,0 +1,41 @@
+.criticas {
+    padding-bottom: 2.4rem;
+}
+
+.criticas h1 {
+    text-align: center;
+}
+
+.criticas .swiper {
+    padding-bottom: 3rem;
+}
+
+.card {
+    width: 75%;
+    /* border: 1px solid var(--azul); */
+    margin: 0 auto;
+}
+
+.card .nome {
+    font-size: 1.2rem;
+}
+
+.card .imdb {
+    margin: .4rem 0;
+}
+
+.card > img {
+    width: 45%;
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: .6rem;
+}
+
+.card img.star {
+    width: 16px;
+}
+
+.texto-critica {
+    line-height: 1.3rem;
+    margin-top: .8rem;
+}

@@ -1,0 +1,29 @@
+.bilheteria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2.4rem 2rem;
+}
+
+.bilheteria .lista-filmes {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.bilheteria .filme {
+    width: 85%;
+    border: 1px solid var(--azul);
+}
+
+.bilheteria .filme img {
+    width: 100%;
+}
+
+.bilheteria .filme p {
+    font-size: 1.2rem;
+    font-style: italic;
+    padding: .6rem 0;
+}
