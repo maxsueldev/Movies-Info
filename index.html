@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/> <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> <!-- Swiper CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -78,9 +78,42 @@
         </div>
     </header>
     <main>
-
+        <!-- Slider main container -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <figure>
+                        <img src="./img/slides/vingadores-ultimato.jpg" alt="Avengers">
+                        <figcaption>Teste</figcaption>
+                    </figure>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slides/pantera-negra.jpg" alt="Pantera Negra">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slides/nos-2019.jpg" alt="Nós">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slides/Toy-Story-4.jpg" alt="Toy Store 4">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slides/O-Irlandes-2019.jpg" alt="O irlandês">
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+  
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+  
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
     </main>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  <!-- Swiper JS -->
     <script src="js/script.js"></script>
 </body>
 </html>

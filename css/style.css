@@ -37,7 +37,24 @@ a {
     align-items: center;
 }
 
-main {
-    height: 400px;
-    background-color: var(--vermelho);
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide figure {
+    display: inline-block;
+    position: relative;
+}
+
+.swiper-slide figure figcaption {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+}
+
+.swiper-slide img {
+    width: 100%;
 }
