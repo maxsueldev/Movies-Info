@@ -38,6 +38,7 @@
     width: 60vw;
     background-color: var(--branco);
     padding: .5rem 0;
+    z-index: 99;
 }
 
 .lista-menu li {

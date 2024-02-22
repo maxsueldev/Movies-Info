@@ -21,7 +21,7 @@ menuHamburger.addEventListener('click', () => {
 // Swiper JS
 const swiper = new Swiper('.swiper', {
     autoplay: {
-        delay: 5000,
+        delay: 8000,
     },
     speed: 800,
     spaceBetween: 100,
