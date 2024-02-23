@@ -5,3 +5,13 @@
 .trailers h1 {
     text-align: center;
 }
+
+.trailers .container {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.trailers iframe {
+    width: 90%;
+    height: 200px;
+}
