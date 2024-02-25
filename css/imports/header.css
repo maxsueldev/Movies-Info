@@ -3,10 +3,15 @@
     justify-content: space-between;
     background-color: var(--branco);
     padding-right: 1rem;
+    height: 4.5rem;
 }
 
 .header .container {
-    gap: 1rem;
+    gap: .6rem;
+}
+
+.header .icons {
+    gap: 1.2rem;
 }
 
 .menu-hamburger {
@@ -19,7 +24,7 @@
     display: inline-block;
 }
 
-.menu-dropdown, .menu-lateral, .header .titulo, .header .opcoes, .header .texto {
+.menu-dropdown, .menu-lateral, .header .titulo, .header .texto {
     display: none;
 }
 
@@ -28,12 +33,15 @@
 }
 
 .container-rotulo {
-    padding: 1.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
 }
 
 .menu-dropdown {
     position: absolute;
-    top: 74px;
+    top: 71px;
     left: 0;
     width: 60vw;
     background-color: var(--branco);
@@ -54,6 +62,57 @@
     color: var(--vermelho);
     font-size: 1.2rem;
     font-weight: bold;
+    padding-bottom: .4rem;
 }
 
+.titulo-header {
+    display: flex;
+    align-items: center;
+}
 
+.header .titulo {
+    font-size: 1.3rem;
+}  
+
+.menu-lateral {
+    width: 400px;
+}
+
+.menu-lateral .opcoes {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: .3rem;
+}
+
+.menu-lateral .opcoes .opcoes-item {
+    padding: 1.6rem 2rem;
+}
+
+.menu-lateral .menu-categorias {
+    width: 35vw;
+    display: none;
+    background-color: var(--branco);
+    position: absolute;
+    top: 71px;
+    z-index: 99;
+}
+
+.menu-lateral .menu-categorias.active {
+    display: block;
+}
+
+.menu-lateral .menu-categorias li {
+    padding: 1.7rem 1rem;
+}
+
+.li-categorias {
+    color: var(--azul);
+    cursor: pointer;
+}
+
+.li-categorias.active {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    font-weight: bold;
+}

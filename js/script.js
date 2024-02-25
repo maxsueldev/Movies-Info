@@ -18,6 +18,15 @@ menuHamburger.addEventListener('click', () => {
     }
 });
 
+// Menu Categorias
+const liCategorias = document.querySelector('#li-categorias');
+const menuCategorias = document.querySelector('#menu-categorias');
+
+liCategorias.addEventListener('click', () => {
+    menuCategorias.classList.toggle('active');
+    liCategorias.classList.toggle('active');
+});
+
 // Swiper JS
 const swiper = new Swiper('.swiper', {
     autoplay: {

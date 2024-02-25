@@ -4,6 +4,7 @@
 @import url('./imports/criticas.css');
 @import url('./imports/trailers.css');
 @import url('./imports/footer.css');
+@import url('./imports/responsive.css');
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -34,12 +35,12 @@ b {
 a {
     text-decoration: none;
     color: var(--azul);
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 h1 {
-    font-size: 2.2rem;
-    line-height: 2.3rem;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
     margin-bottom: 2rem;
 }
 

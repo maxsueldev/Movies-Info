@@ -1,0 +1,577 @@
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    h1 {
+        font-size: 2.2rem !important;
+        line-height: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+    
+    .header .titulo {
+        display: block;
+    }  
+
+    .titulo-header {
+        gap: .3rem;
+    }
+    
+    .banner .swiper-slide img {
+        width: 100%;
+    }
+
+    .bilheteria {
+        text-align: center;
+        padding: 3.2rem 2.2rem;
+    }
+    
+    .bilheteria .lista-filmes {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .bilheteria .filme {
+        width: 40%;
+    }
+    
+    .bilheteria .filme p {
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+
+    .criticas {
+        padding: 3.2rem 0;
+    }
+    
+    .criticas .swiper {
+        padding-bottom: 1rem;
+    }
+    
+    .card {
+        width: 85%;
+    }
+    
+    .card .nome {
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
+    
+    .card .imdb {
+        font-size: 1.3rem;
+        margin: .2rem 0;
+    }
+    
+    .card p {
+        line-height: 2.2rem;
+    }
+    
+    .card > img {
+        margin-right: 1.4rem;
+        margin-bottom: .6rem;
+    }
+    
+    .card img.star {
+        width: 26px;
+    }
+    
+    .texto-critica {
+        font-size: 1.4rem;
+        margin-top: .8rem;
+    }
+
+    .trailers {
+        padding: 3.2rem 2.2rem;
+    }
+    
+    .trailers .container {
+        gap: 2.5rem;
+    }
+    
+    .trailers iframe {
+        height: 300px;
+    }
+
+    footer {
+        padding: 2rem 2rem;
+    }
+    
+    footer p {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+        font-size: 2.6rem !important;
+        line-height: 3.6rem !important;
+        margin-bottom: 2.4rem !important;
+    }
+
+    .header {
+        font-size: 1.4rem;
+    }
+
+    .header .titulo, .lista-menu .titulo-lista {
+        font-size: 1.4rem;
+    }
+
+    .menu-dropdown {
+        width: 40vw;
+    }
+
+    .lista-menu li {
+        padding: 1.5rem 1rem;
+    }
+    
+    .menu-lateral, .header .titulo, .header .texto {
+        display: block;
+    }
+
+    .container-rotulo {
+        padding: 0 1.5rem;
+    }
+
+    .banner .swiper-slide {
+        text-align: center;
+    }
+    
+    .banner .swiper-slide img {
+        width: 80%;
+    }
+
+    .bilheteria {
+        padding: 3.6rem 2.2rem;
+    }
+    
+    .bilheteria .lista-filmes {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .bilheteria .filme {
+        width: 25%;
+    }
+    
+    .bilheteria .filme p {
+        font-size: 1.4rem;
+        padding: 1rem 0;
+    }
+
+    .criticas {
+        padding: 3.6rem 2.6rem;
+    }
+    
+    .criticas .swiper {
+        padding-bottom: 1.6rem;
+    }
+    
+    .card {
+        width: 83%;
+    }
+    
+    .card .nome {
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+    }
+    
+    .card .imdb {
+        font-size: 1.4rem;
+        margin: .1rem 0;
+    }
+    
+    .card p {
+        line-height: 2.2rem;
+    }
+    
+    .card > img {
+        margin-right: 1.6rem;
+        margin-bottom: .8rem;
+    }
+    
+    .card img.star {
+        width: 26px;
+    }
+    
+    .texto-critica {
+        font-size: 1.6rem;
+        margin-top: 1.4rem;
+    }
+
+    .trailers {
+        padding: 3.6rem 2.2rem;
+    }
+    
+    .trailers .container {
+        gap: 3rem;
+    }
+    
+    .trailers iframe {
+        width: 80%;
+        height: 400px;
+    }
+
+    footer {
+        padding: 2.4rem 2rem;
+    }
+    
+    footer p {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    h1 {
+        font-size: 3rem !important;
+        line-height: 5.4rem !important;
+        margin-bottom: 2.4rem !important;
+    }   
+
+    .header {
+        font-size: 1.2rem;
+        padding-right: 2rem;
+    }
+
+    .header .container {
+        gap: 1.2rem;
+    }
+
+    .header .icons {
+        gap: 1.6rem;
+    }
+
+    .titulo-header {
+        gap: .4rem;
+    }
+
+    .header img {
+        width: 40px;
+    }
+
+    .header .titulo, .lista-menu .titulo-lista {
+        font-size: 1.6rem;
+    }
+
+    .menu-dropdown {
+        width: 35vw;
+    }
+
+    .lista-menu li, .menu-lateral .menu-categorias li {
+        padding: 1.6rem;
+    }
+
+    .lista-menu .titulo-lista {
+        font-size: 1.6rem;
+    }
+    
+    .menu-lateral, .header .titulo, .header .texto {
+        display: block;
+    }
+
+    .menu-lateral {
+        width: 550px;
+    }
+
+    .menu-lateral .opcoes .opcoes-item {
+        padding: 1.6rem 2.4rem;
+    }
+
+    .container-rotulo {
+        padding: 0 1.5rem;
+    }
+
+    .banner .swiper-slide {
+        text-align: center;
+    }
+    
+    .banner .swiper-slide img {
+        width: 64%;
+    }
+
+    .bilheteria {
+        padding: 4rem 12rem;
+    }
+    
+    .bilheteria .lista-filmes {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2.6rem;
+    }
+    
+    .bilheteria .filme {
+        width: 23%;
+    }
+    
+    .bilheteria .filme p {
+        font-size: 1.1rem;
+        padding: 1rem 0;
+    }
+
+    .criticas {
+        padding: 4rem 12rem;
+    }
+    
+    .criticas .swiper {
+        padding-bottom: 1.6rem;
+    }
+    
+    .card {
+        width: 80%;
+    }
+    
+    .card .nome {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+
+    .card-info .top-info {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .card-info .top-info .classificacao {
+        width: 170px;
+        text-align: right;
+    }
+    
+    .card .imdb {
+        font-size: 1.2rem;
+        margin: .4rem 0 0 0;
+    }
+    
+    .card p {
+        line-height: 2rem;
+    }
+    
+    .card > img {
+        width: 26%;
+        margin-right: 1rem;
+        margin-bottom: .4rem;
+    }
+    
+    .card img.star {
+        width: 20px;
+    }
+    
+    .texto-critica {
+        font-size: 1.4rem;
+        margin-top: .5rem;
+    }   
+
+    .trailers {
+        padding: 4rem 2.2rem;
+    }
+    
+    .trailers .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+    }
+    
+    .trailers iframe {
+        width: 420px;
+        height: 240px;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+    
+    footer p {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    h1 {
+        font-size: 3rem !important;
+        line-height: 5.4rem !important;
+        margin-bottom: 2.4rem !important;
+    }
+
+    .header {
+        font-size: 1.2rem;
+        padding-right: 2.5rem;
+    }
+
+    .header .container {
+        gap: 1.2rem;
+    }
+
+    .header .icons {
+        gap: 1.6rem;
+    }
+
+    .titulo-header {
+        gap: .5rem;
+    }
+
+    .header img {
+        width: 42px;
+    }
+
+    .header .titulo, .lista-menu .titulo-lista {
+        font-size: 1.6rem;
+    }
+
+    .menu-dropdown {
+        width: 30vw;
+    }
+
+    .lista-menu li, .menu-lateral .menu-categorias li {
+        padding: 1.4rem;
+    }
+
+    .lista-menu .titulo-lista {
+        font-size: 1.4rem;
+    }
+    
+    .menu-lateral, .header .titulo, .header .texto {
+        display: block;
+    }
+
+    .menu-lateral {
+        width: 700px;
+    }
+
+    .menu-lateral .opcoes .opcoes-item {
+        padding: 1.6rem 2rem;
+    }
+    
+    .menu-lateral .menu-categorias {
+        width: 30vw;
+    }
+
+    .container-rotulo {
+        padding: 0 1.5rem;
+    }
+
+    .banner .swiper-slide {
+        text-align: center;
+    }
+    
+    .banner .swiper-slide img {
+        width: 55%;
+    }
+
+    .bilheteria {
+        padding: 4rem 18rem;
+    }
+    
+    .bilheteria .lista-filmes {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2.6rem;
+    }
+    
+    .bilheteria .filme {
+        width: 23%;
+    }
+    
+    .bilheteria .filme p {
+        font-size: 1.1rem;
+        padding: 1rem 0;
+    }
+
+    .criticas {
+        padding: 4rem 18rem;
+    }
+    
+    .criticas .swiper {
+        padding-bottom: 1.6rem;
+    }
+    
+    .card {
+        width: 80%;
+    }
+    
+    .card .nome {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+
+    .card-info .top-info {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .card-info .top-info .classificacao {
+        width: 170px;
+        text-align: right;
+    }
+    
+    .card .imdb {
+        font-size: 1.2rem;
+        margin: .4rem 0 0 0;
+    }
+    
+    .card p {
+        line-height: 2rem;
+    }
+    
+    .card > img {
+        width: 26%;
+        margin-right: 1rem;
+        margin-bottom: .4rem;
+    }
+    
+    .card img.star {
+        width: 20px;
+    }
+    
+    .texto-critica {
+        font-size: 1.4rem;
+        margin-top: .5rem;
+    }
+
+    .trailers {
+        padding: 4rem 2.2rem;
+    }
+    
+    .trailers .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+    }
+    
+    .trailers iframe {
+        width: 580px;
+        height: 320px;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+    
+    footer p {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+}

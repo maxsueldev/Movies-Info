@@ -1,20 +1,17 @@
 .bilheteria {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     padding: 2.4rem 2rem;
 }
 
 .bilheteria .lista-filmes {
     width: 100%;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 2rem;
 }
 
 .bilheteria .filme {
-    width: 70%;
+    width: 55%;
     border: 1px solid var(--azul);
 }
 
@@ -23,7 +20,8 @@
 }
 
 .bilheteria .filme p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-style: italic;
+    font-family: var(--fonte-secundaria);
     padding: .6rem 0;
 }

@@ -41,14 +41,16 @@
                     </li>
                 </ul>
             </nav>
-            <img src="img/movie-logo.svg" alt="Logo">
-            <p class="titulo"><b>Movies</b>Info</p>
+            <div class="titulo-header">
+                <img src="img/movie-logo.svg" alt="Logo">
+                <p class="titulo"><b>Movies</b> Info</p>
+            </div>
         </div>
 
         <nav class="menu-lateral">
             <ul class="opcoes">
-                <li class="opcoes-item">Categorias</li>
-                <ul class="lista-menu">
+                <li id="li-categorias" class="opcoes-item li-categorias">Categorias</li>
+                <ul id="menu-categorias" class="lista-menu menu-categorias">
                     <li class="item">
                         <a href="#">Ação</a>
                     </li>
@@ -69,11 +71,10 @@
             </ul>
         </nav>
 
-        <div class="container">
+        <div class="container icons">
             <a href="#"><img src="img/favoritos.svg" alt="Meus favoritos"></a>
-            <a href="#">
+            <a href="#" class="perfil">
                 <img src="img/usuario.svg" alt="Meu perfil">
-                <p class="texto">Meu perfil</p>
             </a>
         </div>
     </header>
@@ -162,14 +163,17 @@
                         <div class="card">
                             <img src="./img/bilheteria/barbie.jpg" alt="Barbie">
                             <div class="card-info">
-                                <div>
+                                <div class="top-info">
                                     <p class="nome"><b>Barbie</b></p>
-                                    <p class="imdb">IMDb: 6,9</p>
-                                </div>
-                                <div class="stars-movie">
-                                    <img class="star" src="./img/star.svg" alt="star">
-                                    <img class="star" src="./img/star.svg" alt="star">
-                                    <img class="star" src="./img/star.svg" alt="star">
+                                    <div class="classificacao">
+                                        <p class="imdb">IMDb: 6,9</p>
+                                        
+                                        <div class="stars-movie">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                        </div>
+                                    </div>
                                 </div>
                                 <p class="texto-critica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam maiores, cumque totam eligendi atque esse eaque obcaecati enim aliquid perspiciatis consectetur molestiae eius consequuntur praesentium aliquam ex fugiat laborum vero!</p>
                             </div>
@@ -179,14 +183,17 @@
                         <div class="card">
                             <img src="./img/bilheteria/super-mario-bros.jpg" alt="Super Mario Bros">
                             <div class="card-info">
-                                <div>
+                                <div class="top-info">
                                     <p class="nome"><b>Super Mário Bros</b></p>
-                                    <p class="imdb">IMDb: 7,0</p>
-                                </div>
-                                <div class="stars-movie">
-                                    <img class="star" src="./img/star.svg" alt="star">
-                                    <img class="star" src="./img/star.svg" alt="star">
-                                    <img class="star" src="./img/star.svg" alt="star">
+                                    <div class="classificacao">
+                                        <p class="imdb">IMDb: 7,0</p>
+                                    
+                                        <div class="stars-movie">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                        </div>
+                                    </div>
                                 </div>
                                 <p class="texto-critica">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem omnis nulla odit nemo dolores corporis illum vel odio at voluptate incidunt dolorem quis iusto adipisci corrupti perferendis, maxime velit quos!</p>
                             </div>
@@ -196,15 +203,18 @@
                         <div class="card">
                             <img src="./img/bilheteria/oppenheimer.jpg" alt="Oppenheimer">
                             <div class="card-info">
-                                <div>
+                                <div class="top-info">
                                     <p class="nome"><b>Oppenheimer</b></p>
-                                    <p class="imdb">IMDb: 8,4</p>
-                                </div>
-                                <div class="stars-movie">
-                                    <img class="star" src="./img/star.svg" alt="star">
-                                    <img class="star" src="./img/star.svg" alt="star">
-                                    <img class="star" src="./img/star.svg" alt="star">
-                                    <img class="star" src="./img/star.svg" alt="star">
+                                    <div class="classificacao">    
+                                        <p class="imdb">IMDb: 8,4</p>
+
+                                        <div class="stars-movie">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                        </div>
+                                    </div>
                                 </div>
                                 <p class="texto-critica">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt perspiciatis dignissimos iure facere, nemo distinctio eius magni dolor non eos blanditiis odit officia, eaque similique? Fugiat aliquam tempora reiciendis vitae!</p>
                             </div>
@@ -214,15 +224,18 @@
                         <div class="card">
                             <img src="./img/bilheteria/guardioesdagalaxiafilme-204x300.png" alt="Guardiões da Galáxia 3">
                             <div class="card-info">
-                                <div>
+                                <div class="top-info">
                                     <p class="nome"><b>Guardiões da Galáxia Vol. 3</b></p>
-                                    <p class="imdb">IMDb: 7,9</p>
-                                </div>
-                                <div class="stars-movie">
-                                    <img class="star" src="./img/star.svg" alt="star">
-                                    <img class="star" src="./img/star.svg" alt="star">
-                                    <img class="star" src="./img/star.svg" alt="star">
-                                    <img class="star" src="./img/star.svg" alt="star">
+                                    <div class="classificacao">
+                                        <p class="imdb">IMDb: 7,9</p>
+                                        
+                                        <div class="stars-movie">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                            <img class="star" src="./img/star.svg" alt="star">
+                                        </div>
+                                    </div>
                                 </div>
                                 <p class="texto-critica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, iste perferendis sequi corrupti possimus, fugit quis cum, voluptatibus doloribus asperiores ex. Aut omnis nesciunt quod dolor temporibus iusto odit porro!</p>
                             </div>

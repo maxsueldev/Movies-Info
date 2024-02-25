@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-.swiper-slide figure {
+/* .swiper-slide figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,9 +17,13 @@
     color: var(--preto);
     text-align: center;
     padding: 0 2rem;
+} */
+
+.banner {
+    background-color: var(--preto);
 }
 
-.swiper-slide img {
+.banner .swiper-slide img {
     width: 110%;
     /* opacity: .9; */
 }

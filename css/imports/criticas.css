@@ -26,6 +26,7 @@
 }
 
 .card p {
+    font-family: var(--fonte-secundaria);
     line-height: 1.3rem;
 }
 
